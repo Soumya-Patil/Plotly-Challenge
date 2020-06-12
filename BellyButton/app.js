@@ -3,6 +3,7 @@
 function getPlot(id) {
   // getting data from the json file
   d3.json("Data/samples.json").then((data)=> {
+      // check what it looks like
       console.log(data)
 
       var wfreq = data.metadata.map(d => d.wfreq)
@@ -41,7 +42,7 @@ function getPlot(id) {
           orientation: "h",
       };
 
-      // create data variable
+      // create data array 
       var data = [trace];
 
       // create layout variable to set plots layout
@@ -89,7 +90,7 @@ function getPlot(id) {
       // create the bubble plot
       Plotly.newPlot("bubble", data1, layout_b); 
 
-      // The guage chart
+      // for the Bonus : the guage chart
 
       var data_g = [
         {
