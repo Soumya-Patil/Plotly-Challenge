@@ -1,4 +1,4 @@
-A Plotly dashboard within a Flask app deployed to Heroku at https://soumya-patil.github.io/Plotly-Challenge/.
+A Plotly dashboard within a Flask app deployed at https://soumya-patil.github.io/Plotly-Challenge/.
 This dashboard was created to visualize the Belly Button Diversity Dataset. 
 This full stack application was created using a SQLite/Flask/Python backend combined with an HTML frontend and Javascript as a middle layer to connect the two ends. 
 Users can select a sample number from the drop down menu to select the participant in the study and view the dashboard changing with respect to the participant's measurements.
